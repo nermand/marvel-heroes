@@ -1,0 +1,48 @@
+ul.pager{
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+ul.pager li{
+  list-style-type: none;
+  flex: 1;
+}
+ul.pager li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.pager li {
+ display: flex;
+ justify-content: center;
+ background-color: #f0141e;
+}
+
+ul.pager a,
+ul.pager span {
+  flex: 1;
+  height:44px;
+  text-decoration:none;
+  color: #fff;
+}
+
+ul.pager a.disabled{
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+ul.pager span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.pager li a:hover {
+  background-color: rgba(255,255,255,.2);
+}
+
+ul {
+   -webkit-padding-start: 0px;
+}

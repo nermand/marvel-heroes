@@ -1,0 +1,4 @@
+node_modules/
+public
+packages/react-scripts/template
+packages/react-scripts/fixtures

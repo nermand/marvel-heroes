@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  background-color: #b5a49d;
+}
+
+a {
+  text-decoration: none;
+  color: #f0141e;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
